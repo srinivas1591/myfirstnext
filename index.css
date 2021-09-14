@@ -1,0 +1,122 @@
+.whole
+{
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 350px;
+	margin-left: 35%;
+	background-color: orange;
+	border-radius: 25px;
+}
+
+.maincard
+{
+	width: 340px;
+	height: auto;
+	border-radius: 25px;
+	margin-top: 30px;
+	background-color: azure;
+	padding: 5px;
+}
+
+
+
+.head
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+button
+{
+	border-radius: 0;
+	border: none;
+}
+
+.text
+{
+	padding: 15px;
+}
+
+.body,.content
+{
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 10px;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2)
+
+}
+
+.content>h3,h4,label
+{
+	padding: 10px;
+}
+
+
+hr
+{
+	width: 90%;
+}
+
+.card
+{
+	display: flex;
+	justify-content: space-around;	align-items: center;
+	align-items: center;
+	flex-direction: row;
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+
+
+.insub
+{
+	text-align: center;
+	border-radius: 15px;
+	height: 80%;
+	background-color: orange;
+}
+
+
+
+.top,.down{
+	border-radius: 15px;
+	padding: 8px;
+}
+
+
+.down
+{
+	background-color: darkorange;
+}
+.left
+{
+	text-align: left;
+}
+
+.foot
+{
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.foot a
+{
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+
+.foot a:hover
+{
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
